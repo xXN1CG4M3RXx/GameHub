@@ -1,0 +1,31 @@
+.navBar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid var(--cyan);
+    box-shadow: 0 0 12px var(--cyan), inset 0 0 12px var(--cyan);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.navBar ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navBar ul li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.navBar ul li a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

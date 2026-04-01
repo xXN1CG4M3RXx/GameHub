@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --cyan: #00ffff;
+  --cyan-hover: #00bbbb;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100svh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Orbitron', Arial;
+}
+
+a {
+  color: var(--cyan);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--cyan-hover);
+}

@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "test",
+      "cookies": 123456789
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

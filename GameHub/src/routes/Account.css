@@ -1,0 +1,17 @@
+.copy-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.copy-button img {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.copy-button:hover img {
+    transition: filter 0.2s ease-in-out;
+}
