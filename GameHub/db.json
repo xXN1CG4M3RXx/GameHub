@@ -2,8 +2,13 @@
   "users": [
     {
       "id": "1",
-      "username": "test",
+      "username": "Testing",
       "cookies": 123456789
+    },
+    {
+      "username": "Nico",
+      "id": "xjiROlnodzA",
+      "cookies": 14
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

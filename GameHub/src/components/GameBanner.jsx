@@ -9,7 +9,7 @@ export default function GameBanner({ icon = "❔", title = "Undefined", descript
         if (accountId) {
             navigate(path);
         } else {
-            navigate("/account/signup");
+            navigate("/account");
         }
     }
 

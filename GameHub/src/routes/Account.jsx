@@ -41,7 +41,10 @@ export default function Account() {
                     ) : (
                         <>
                             <p>Not logged in</p>
-                            <Link to="signup">Signup</Link>
+                            <hr />
+                            <h2><Link to="signup">Signup</Link></h2>
+                            <h2>or</h2>
+                            <h2><Link to="login">Login</Link></h2>
                         </>
                     )}
                 </>

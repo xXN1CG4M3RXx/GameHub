@@ -14,6 +14,7 @@ import FlappyBird from './routes/FlappyBird.jsx'
 
 import Account from './routes/Account.jsx'
 import Signup from './routes/Signup.jsx'
+import Login from './routes/Login.jsx'
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
           {
             path: "signup",
             element: <Signup />
+          },
+          {
+            path: "login",
+            element: <Login />
           }
         ]
       },
